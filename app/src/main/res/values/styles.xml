@@ -1,0 +1,44 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/back</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="DrawerIcon" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Applies to views in their normal state. -->
+        <item name="colorControlNormal">@color/drawerColorButton</item>
+
+    </style>
+
+
+
+    <style name="MyMaterialDrawerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/drawerColorPrimary</item>
+        <item name="colorPrimaryDark">@color/drawerColorPrimaryDark</item>
+        <item name="colorAccent">@color/drawerColorAccent</item>
+
+    </style>
+    <style name="ButtonStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/md_indigo200</item>
+        <item name="colorButtonNormal">@color/drawerColorPrimary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark"/>
+
+</resources>

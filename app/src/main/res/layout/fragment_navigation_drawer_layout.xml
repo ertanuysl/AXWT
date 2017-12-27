@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/nav_header_container"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:background="@color/drawerColorPrimary">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/ic_profile"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Ertan Uysal"
+            android:textSize="14sp"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ertan.uysl@gmail.com"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="135dp"
+            android:textSize="14sp"
+            android:textStyle="normal"/>
+
+            />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/drawerList">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
