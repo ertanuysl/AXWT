@@ -18,8 +18,6 @@ public class wf_Login extends AppCompatActivity {
         setContentView(R.layout.activity_wf__login);
 
         Button button = (Button) findViewById(R.id.button2);
-
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             //On click function
